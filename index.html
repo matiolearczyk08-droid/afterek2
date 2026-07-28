@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFTEREK #2 | Wydarzenie dla Młodzieży</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-2xl font-extrabold tracking-wider bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent">
+                AFTEREK #2
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+                <a href="#o-nas" class="hover:text-indigo-400 transition">O wydarzeniu</a>
+                <a href="#harmonogram" class="hover:text-indigo-400 transition">Plan</a>
+                <a href="#miejsce" class="hover:text-indigo-400 transition">Lokalizacja</a>
+            </div>
+            <a href="#zapisy" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-full font-semibold text-sm transition shadow-lg shadow-indigo-600/30">
+                Zapisz się
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-600/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-purple-600/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="relative max-w-4xl mx-auto px-6 text-center z-10">
+            <span class="inline-block bg-indigo-500/15 text-indigo-400 border border-indigo-500/30 px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
+                ✨ Edycja Druga – Czas na więcej!
+            </span>
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 leading-tight">
+                Spotkajmy się na <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 bg-clip-text text-transparent">AFTERKU #2</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Wyjątkowy czas społeczności, uwielbienia, inspirujących słów i świetnej zabawy dla młodych chrześcijan. Nie może Cię tam zabraknąć!
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#zapisy" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-full font-bold text-base transition shadow-xl shadow-indigo-600/40">
+                    Dołącz do nas
+                </a>
+                <a href="#o-nas" class="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 px-8 py-4 rounded-full font-bold text-base transition">
+                    Dowiedz się więcej
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- O wydarzeniu -->
+    <section id="o-nas" class="py-24 bg-slate-900/50 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Czym jest AFTEREK?</h2>
+                <p class="text-slate-400">To przestrzeń stworzona z myślą o młodych ludziach, którzy chcą spędzić czas w dobrą stronę.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-indigo-600/20 text-indigo-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6">🔥</div>
+                    <h3 class="text-xl font-bold mb-3">Mocne Uwielbienie</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Wspólny śpiew, modlitwa i zbliżenie się do Boga w nowoczesnej oprawie muzycznej.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-purple-600/20 text-purple-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6">🎯</div>
+                    <h3 class="text-xl font-bold mb-3">Inspirujące Słowo</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Praktyczne przesłanie dostosowane do wyzwań, z jakimi mierzy się współczesna młodzież.</p>
+                </div>
+                <div class="bg-slate-900 border border-slate-800 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-pink-600/20 text-pink-400 rounded-xl flex items-center justify-center text-xl font-bold mb-6">🤝</div>
+                    <h3 class="text-xl font-bold mb-3">Super Społeczność</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Strefa kawiarniana, gry, rozmowy i okazja do poznania nowych, wartościowych ludzi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Harmonogram -->
+    <section id="harmonogram" class="py-24">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Plan Wydarzenia</h2>
+                <p class="text-slate-400">Zobacz, jak zamierzamy spędzić ten czas.</p>
+            </div>
+            <div class="space-y-4">
+                <div class="flex items-center bg-slate-900/60 border border-slate-800 p-6 rounded-2xl">
+                    <div class="text-indigo-400 font-bold w-24 text-lg">16:00</div>
+                    <div>
+                        <h4 class="font-bold text-lg">Rejestracja i powitanie</h4>
+                        <p class="text-sm text-slate-400">Odbiór identyfikatorów i luźna rozmowa przy kawie.</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-slate-900/60 border border-slate-800 p-6 rounded-2xl">
+                    <div class="text-indigo-400 font-bold w-24 text-lg">17:00</div>
+                    <div>
+                        <h4 class="font-bold text-lg">Uwielbienie i Słowo</h4>
+                        <p class="text-sm text-slate-400">Główny blok spotkania – muzyka i przesłanie.</p>
+                    </div>
+                </div>
+                <div class="flex items-center bg-slate-900/60 border border-slate-800 p-6 rounded-2xl">
+                    <div class="text-indigo-400 font-bold w-24 text-lg">19:00</div>
+                    <div>
+                        <h4 class="font-bold text-lg">AFTER PARTY 🍕</h4>
+                        <p class="text-sm text-slate-400">Przekąski, gry planszowe, integracja bez ograniczeń.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Zapisy / CTA -->
+    <section id="zapisy" class="py-24 bg-gradient-to-b from-slate-950 to-indigo-950/30 border-t border-slate-900 text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Dołączysz do nas?</h2>
+            <p class="text-slate-400 mb-8">Wstęp jest darmowy, ale ze względów organizacyjnych prosimy o krótkie zgłoszenie.</p>
+            <a href="https://forms.gle/twoj-link-do-formularza" target="_blank" class="inline-block bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-10 py-4 rounded-full text-lg transition shadow-xl shadow-indigo-600/40">
+                Wypełnij formularz zgłoszeniowy
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-slate-900 text-center text-sm text-slate-500">
+        <p>&copy; 2026 AFTEREK #2. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+</body>
+</html>
