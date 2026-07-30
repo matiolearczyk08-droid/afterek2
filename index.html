@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -13,8 +14,13 @@
 </head>
 <body class="bg-stone-50 text-stone-800 antialiased selection:bg-amber-200 selection:text-stone-900">
 
+    <!-- Super widoczny pasek z datą na samej górze -->
+    <div class="bg-amber-100 border-b border-amber-200/60 py-2.5 px-4 text-center text-xs md:text-sm font-medium text-amber-900 sticky top-0 z-60">
+        📅 Zapisz datę: <strong class="underline decoration-amber-400 underline-offset-2 ml-1">21–23 sierpnia</strong> • Widzimy się w Bielsku-Białej!
+    </div>
+
     <!-- Navbar -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+    <nav class="sticky top-[41px] md:top-[43px] left-0 right-0 z-50 bg-white/85 backdrop-blur-md border-b border-stone-200">
         <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
             <a href="#" class="text-xl font-bold tracking-tight text-stone-900 flex items-center gap-2">
                 <span class="w-3 h-3 rounded-full bg-amber-300"></span>
@@ -23,7 +29,7 @@
             <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-stone-600">
                 <a href="#o-nas" class="hover:text-amber-600 transition">Wydarzenie</a>
                 <a href="#plan" class="hover:text-amber-600 transition">Plan</a>
-                <a href="#myśl" class="hover:text-amber-600 transition">Wskazówki</a>
+                <a href="#wskazowki" class="hover:text-amber-600 transition">Wskazówki</a>
             </div>
             <a href="#zapisy" class="bg-stone-900 hover:bg-stone-800 text-white px-5 py-2.5 rounded-full font-medium text-sm transition shadow-sm">
                 Zapisz się
@@ -35,7 +41,7 @@
     <header class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden border-b border-stone-200 bg-gradient-to-b from-amber-50/60 to-stone-50">
         <div class="max-w-5xl mx-auto px-6 text-center">
             <span class="inline-block bg-amber-100 text-amber-900 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider mb-6 border border-amber-200/50">
-                         Opuść brzeg (Łk 5,1-11)
+                     Opuść brzeg (Łk 5,1-11)
             </span>
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-stone-900 mb-6 leading-tight">
                 Czas wejść <br class="hidden md:block">głębiej.
@@ -140,7 +146,8 @@
             </div>
         </div>
     </section>
-<!-- Wskazówki / Porady przed przyjazdem & Mapa -->
+
+    <!-- Wskazówki / Porady przed przyjazdem & Mapa -->
     <section id="wskazowki" class="py-24 bg-stone-100 border-t border-stone-200">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-16">
